@@ -1,0 +1,23 @@
+name: ProPractice
+main: net.propvp.practice.Practice
+version: 3.0.7
+author: deaL- / joeleoli
+prefix: ProPractice
+depend: [ProtocolLib]
+commands:
+  practice:
+  dbflush:
+  arena:
+  gametype:
+    aliases: [gt]
+  goldenapple:
+    aliases: [gapple]
+  duel:
+  ping:
+  elo:
+  inventory:
+  party:
+  scoreboard:
+  spectate:
+    aliases: [spec]
+  ppv:

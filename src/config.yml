@@ -1,0 +1,85 @@
+practice:
+  limited-matches: true
+  limited-matches-amount: 10
+backend:
+  type: flatfile
+scoreboard:
+  title: '&c&lProPractice'
+  separator: '&4&m------------'
+  gamemode: '&e$gamemode'
+  rating: '&7: $rating'
+  enderpearl: '&4&lEnderpearl: &r&7$time'
+  idle-lines:
+  - '         &cwww.propvp.net'
+  - $separator
+  - $ratings
+  - $separator
+  match-lines:
+  - $separator
+  - '&6Time'
+  - ' &7 $time'
+  - ''
+  - '&6Rival'
+  - ' &7 $rival'
+  - $separator
+  queue-lines:
+  - $separator
+  - '&6Queue Time'
+  - ' &7 $time'
+  - ''
+  - '&6Queue'
+  - ' &7 $queue'
+  - ' &7 $ranges'
+  - $separator
+menus:
+  ranked-matchmaking: '&2Ranked Matchmaking'
+  normal-matchmaking: '&eNormal Matchmaking'
+  party-matchmaking: '&9Party Matchmaking'
+  kit-editing: '&6Kit Editing &8: &7Choose a game type.'
+  dueling: '&6Dueling &8: &7Choose a game type.'
+  player-options: '&cPlayer Options'
+items:
+  ranked-menu:
+    name: '&2Ranked Matches'
+    lore:
+    - '&7Right-click to open the'
+    - '&7ranked matches menu.'
+    material: DIAMOND_SWORD
+    data: 0
+  normal-menu:
+    name: '&eNormal Matches'
+    lore:
+    - '&7Right-click to open the'
+    - '&7normal matches menu.'
+    material: IRON_SWORD
+    data: 0
+  party-menu:
+    name: '&9Party Matches'
+    lore:
+    - '&7Right-click to open the'
+    - '&7party matches menu.'
+    material: DIAMOND_SWORD
+    data: 0
+  player-options:
+    name: '&cPlayer Options'
+    lore:
+    - '&7Right-click to open the'
+    - '&7player options menu.'
+    material: REDSTONE_COMPARATOR
+    data: 0
+  kit-editor:
+    name: '&bKit Editor'
+    lore:
+    - '&7Right-click to open the'
+    - '&7kit editing menu.'
+    material: CHEST
+    data: 0
+  leave-queue:
+    name: '&cLeave Queue'
+    lore:
+    - '&7Right-click to leave the'
+    - '&7queue you are in.'
+    material: INK_SACK
+    data: 1
+cooldown:
+  enderpearl: 16
